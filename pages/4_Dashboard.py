@@ -34,4 +34,4 @@ folium.raster_layers.ImageOverlay(
    # mercator_project=True  # Tambahkan argumen mercator_project=True
 ).add_to(m)
 st.write("Data NetCDF plotted on Leaflet map")
-st_folium(m)
+st_folium(m, width=750)
